@@ -6,11 +6,13 @@ namespace SkillFactory.Module4
     {
         static void Main(string[] args)
         {
-            Exercise415 Exanple = new Exercise415();
-            Exanple.TimeOfYear();
-            Exanple.Condition();
-            Exercise4 Color = new Exercise4();
-            Color.YourFavoriteColour();
+            //Exercise415 Example = new Exercise415();
+            //Example.TimeOfYear();
+            //Example.Condition();
+            //Exercise4 Color = new Exercise4();
+            //Color.YourFavoriteColour();
+            Exercise421 Test = new Exercise421();
+            Test.Cycling();
 		}
     }
 }

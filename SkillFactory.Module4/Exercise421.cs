@@ -50,11 +50,18 @@ namespace SkillFactory.Module4
             Console.WriteLine("Цикл while");
             int k = 0;
 
-            while (k < 3)
+            while (k < 0)
             {
                 Console.WriteLine(k);
                 Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
-                switch (Console.ReadLine())
+                var text = Console.ReadLine();
+
+                if (text == "stop")
+                {
+                    Console.WriteLine("Цикл остановлен");
+                    break;
+                }
+                switch (text)
                 {
                     case "red":
                         Console.BackgroundColor = ConsoleColor.Red;
@@ -128,7 +135,7 @@ namespace SkillFactory.Module4
                 }
                 t++;
             }
-            while (t < 3);
+            while (t < 0);
 
         }
     }

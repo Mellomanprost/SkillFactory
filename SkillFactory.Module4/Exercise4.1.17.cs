@@ -8,46 +8,43 @@ namespace SkillFactory.Module4
     {
         public void YourFavoriteColour()
         {
-			//Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
+            Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
 
-			//var color = Console.ReadLine();
+            var color = Console.ReadLine();
 
-			for (int i = 1; i < 5; i++)
+            switch (color)
             {
-				Console.WriteLine("Iteration{0}", i);
-				switch (Console.ReadLine())
-				{
-					case "red":
-						Console.BackgroundColor = ConsoleColor.Red;
-						Console.ForegroundColor = ConsoleColor.Black;
+                case "red":
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Black;
 
-						Console.WriteLine("Your color is red!");
-						break;
+                    Console.WriteLine("Your color is red!");
+                    break;
 
-					case "green":
-						Console.BackgroundColor = ConsoleColor.Green;
-						Console.ForegroundColor = ConsoleColor.Black;
+                case "green":
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
 
-						Console.WriteLine("Your color is green!");
-						break;
+                    Console.WriteLine("Your color is green!");
+                    break;
 
-					case "cyan":
-						Console.BackgroundColor = ConsoleColor.Cyan;
-						Console.ForegroundColor = ConsoleColor.Black;
+                case "cyan":
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Console.ForegroundColor = ConsoleColor.Black;
 
-						Console.WriteLine("Your color is cyan!");
-						break;
+                    Console.WriteLine("Your color is cyan!");
+                    break;
 
 
-					default:
-						Console.BackgroundColor = ConsoleColor.Yellow;
-						Console.ForegroundColor = ConsoleColor.Red;
+                default:
+                    Console.BackgroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Red;
 
-						Console.WriteLine("Your color is something else!");
-						break;
-				}
+                    Console.WriteLine("Your color is something else!");
+                    break;
+            }
 
-			}
-		}
+        }
     }
+}
 }

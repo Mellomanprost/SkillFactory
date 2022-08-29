@@ -11,8 +11,11 @@ namespace SkillFactory.Module4
             //Example.Condition();
             //Exercise4 Color = new Exercise4();
             //Color.YourFavoriteColour();
-            Exercise421 Test = new Exercise421();
-            Test.Cycling();
+            //Exercise421 Test = new Exercise421();
+            //Test.Cycling();
+            Exercise434 exercise434 = new Exercise434();
+            //exercise434.StringArray();
+            exercise434.Reshuffle();
 		}
     }
 }

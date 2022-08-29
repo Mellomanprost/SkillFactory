@@ -13,9 +13,15 @@ namespace SkillFactory.Module4
             //Color.YourFavoriteColour();
             //Exercise421 Test = new Exercise421();
             //Test.Cycling();
-            Exercise434 exercise434 = new Exercise434();
+            //Exercise434 exercise434 = new Exercise434();
             //exercise434.StringArray();
-            exercise434.Reshuffle();
+            //exercise434.Reshuffle();
+            //exercise434.Matrix();
+            Exercise4312 exercise4312 = new Exercise4312();
+            //exercise4312.SortArray();
+            //exercise4312.SummArray();
+            Exercise43 exercise43 = new Exercise43();
+            exercise43.ArraysTesting();
 		}
     }
 }

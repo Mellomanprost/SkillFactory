@@ -18,10 +18,11 @@ namespace SkillFactory.Module4
             //exercise434.Reshuffle();
             //exercise434.Matrix();
             Exercise4312 exercise4312 = new Exercise4312();
+            exercise4312.ReadArray();
             //exercise4312.SortArray();
             //exercise4312.SummArray();
             Exercise43 exercise43 = new Exercise43();
-            exercise43.ArraysTesting();
+            //exercise43.ArraysTesting();
 		}
     }
 }

@@ -26,10 +26,12 @@ namespace SkillFactory.Module4
             //exercise4312.SummArray();
             //Exercise43 exercise43 = new Exercise43();
             //exercise43.ArraysTesting();
-            Unit_4_4 unit_4_4 = new Unit_4_4();
+            //Unit_4_4 unit_4_4 = new Unit_4_4();
             //unit_4_4.WriteInCortege();
             //unit_4_4.WriteFromInCortege();
-            unit_4_4.WritePetCortege();
+            //unit_4_4.WritePetCortege();
+            Unit4PRACTICE practice = new Unit4PRACTICE();
+            practice.DoPractice();
 		}
     }
 }

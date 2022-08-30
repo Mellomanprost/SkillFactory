@@ -17,15 +17,19 @@ namespace SkillFactory.Module4
             //exercise434.StringArray();
             //exercise434.Reshuffle();
             //exercise434.Matrix();
-            Exercise4312 exercise4312 = new Exercise4312();
+            //Exercise4312 exercise4312 = new Exercise4312();
             //exercise4312.ReadArray();
             //exercise4312.PositiveNumberArray();
             //exercise4312.PositiveNumberMatrix();
-            exercise4312.SortMatrixArray();
+            //exercise4312.SortMatrixArray();
             //exercise4312.SortArray();
             //exercise4312.SummArray();
             //Exercise43 exercise43 = new Exercise43();
             //exercise43.ArraysTesting();
+            Unit_4_4 unit_4_4 = new Unit_4_4();
+            //unit_4_4.WriteInCortege();
+            //unit_4_4.WriteFromInCortege();
+            unit_4_4.WritePetCortege();
 		}
     }
 }

@@ -32,17 +32,27 @@ namespace SkillFactory.Module4
             //unit_4_4.WritePetCortege();
             //Unit4PRACTICE practice = new Unit4PRACTICE();
             //practice.DoPractice();
-            Unit5 unit5 = new Unit5();
+            Unit_5_1 unit_5_1 = new Unit_5_1();
             //unit5.ShowColor();
-            // To Exercise 5.1.5
-            //string[] favcolours = new string[3];
-            //for(int i = 0; i < favcolours.Length; i++)
-            //{
-            //    favcolours[i] = unit5.ShowColor();
-            //}
-            //foreach (var color in favcolours)
-            //    Console.WriteLine(color);
-            unit5.GetArrayFromConsole();
+            //To Exercise 5.1.5
+            (string name, int age) anketa;
+            Console.WriteLine("Введите ваше имя: ");
+            anketa.name = Console.ReadLine();
+
+            Console.WriteLine("Введите ваш возраст: ");
+            anketa.age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Ваше имя: {0}", anketa.Item1);
+            Console.WriteLine("Ваш возраст: {0}", anketa.Item2);
+
+            string[] favcolours = new string[3];
+            for (int i = 0; i < favcolours.Length; i++)
+            {
+                favcolours[i] = unit_5_1.ShowColor(anketa.name);
+            }
+            foreach (var color in favcolours)
+                Console.WriteLine(color);
+            //unit_5_1.GetArrayFromConsole();
         }
     }
 }

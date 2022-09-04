@@ -4,12 +4,12 @@ using System.Text;
 
 namespace SkillFactory.Module4
 {
-    class Unit5
+    class Unit_5_1
     {
         // Exercise 5.1.5
-        public string ShowColor()
+        public string ShowColor(string username)
         {
-            Console.WriteLine("Напишите свой любимый цвет на английском с маленькой буквы");
+            Console.WriteLine(username + " напишите свой любимый цвет на английском с маленькой буквы");
             var color = Console.ReadLine();
 
             switch (color)
@@ -40,19 +40,6 @@ namespace SkillFactory.Module4
                     Console.WriteLine("Your color is yellow!");
                     break;
             }
-
-            var (name, age) = ("Евгения", 27);
-
-            Console.WriteLine("Мое имя: {0}", name);
-            Console.WriteLine("Мой возраст: {0}", age);
-
-            Console.Write("Введите имя: ");
-            name = Console.ReadLine();
-            Console.Write("Введите возрас с цифрами:");
-            age = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Ваше имя: {0}", name);
-            Console.WriteLine("Ваш возраст: {0}", age);
 
             return color;
         }

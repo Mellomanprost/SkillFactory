@@ -56,5 +56,37 @@ namespace SkillFactory.Module4
 
             return color;
         }
+
+        // Exercise 5.1.6
+        public int[] GetArrayFromConsole()
+        {
+            var result = new int[5];
+
+            for (int i = 0; i < result.Length; i++)
+            {
+                Console.WriteLine("Введите элемент массива номер {0}", i + 1);
+                result[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (int i = 0; i < result.Length; i++)
+            {
+                for (int j = i + 1; j < result.Length; j++)
+                {
+                    if (result[i] > result[j])
+                    {
+                        int temp = result[i];
+                        result[i] = result[j];
+                        result[j] = temp;
+                    }
+                }
+            }
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            return result;
+        }
     }
 }

@@ -34,13 +34,15 @@ namespace SkillFactory.Module4
             //practice.DoPractice();
             Unit5 unit5 = new Unit5();
             //unit5.ShowColor();
-            string[] favcolours = new string[3];
-            for(int i = 0; i < favcolours.Length; i++)
-            {
-                favcolours[i] = unit5.ShowColor();
-            }
-            foreach (var color in favcolours)
-                Console.WriteLine(color);
+            // To Exercise 5.1.5
+            //string[] favcolours = new string[3];
+            //for(int i = 0; i < favcolours.Length; i++)
+            //{
+            //    favcolours[i] = unit5.ShowColor();
+            //}
+            //foreach (var color in favcolours)
+            //    Console.WriteLine(color);
+            unit5.GetArrayFromConsole();
         }
     }
 }

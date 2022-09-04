@@ -6,10 +6,10 @@ namespace SkillFactory.Module4
 {
     class Unit_5_2
     {
-        // Exercise 5.2.8
-        public int[] GetArrayFromConsole()
+        // Exercise 5.2.8 + Exercise 5.2.14
+        public int[] GetArrayFromConsole(int num = 5)
         {
-            var array = new int[5];
+            var array = new int[num];
 
             for (int i = 0; i < array.Length; i++)
             {
@@ -35,14 +35,25 @@ namespace SkillFactory.Module4
                     }
                 }
             }
+            return array;
+        }
+
+        // Exercise 5.2.17
+
+        public void ShowArray(int[] array, bool IsSort = false) 
+        {
+            var temp = array;
+            if (IsSort == true)
+            {
+                temp = SortArray(array);
+            }
             foreach (var item in array)
             {
                 Console.WriteLine(item);
             }
-
-
-            return array;
         }
+
+
 
 
     }

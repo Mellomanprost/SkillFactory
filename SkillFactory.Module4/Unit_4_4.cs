@@ -53,7 +53,6 @@ namespace SkillFactory.Module4
             Pet.Type = Console.ReadLine();
             Console.WriteLine("Enter pet age: ");
             Pet.Age = Convert.ToDouble(Console.ReadLine());
-
         }
     }
 }

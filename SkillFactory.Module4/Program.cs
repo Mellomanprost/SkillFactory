@@ -30,8 +30,17 @@ namespace SkillFactory.Module4
             //unit_4_4.WriteInCortege();
             //unit_4_4.WriteFromInCortege();
             //unit_4_4.WritePetCortege();
-            Unit4PRACTICE practice = new Unit4PRACTICE();
-            practice.DoPractice();
-		}
+            //Unit4PRACTICE practice = new Unit4PRACTICE();
+            //practice.DoPractice();
+            Unit5 unit5 = new Unit5();
+            //unit5.ShowColor();
+            string[] favcolours = new string[3];
+            for(int i = 0; i < favcolours.Length; i++)
+            {
+                favcolours[i] = unit5.ShowColor();
+            }
+            foreach (var color in favcolours)
+                Console.WriteLine(color);
+        }
     }
 }

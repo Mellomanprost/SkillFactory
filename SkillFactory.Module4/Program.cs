@@ -48,7 +48,7 @@ namespace SkillFactory.Module4
             string[] favcolours = new string[3];
             for (int i = 0; i < favcolours.Length; i++)
             {
-                favcolours[i] = unit_5_1.ShowColor(anketa.name);
+                favcolours[i] = unit_5_1.ShowColor(anketa.name, anketa.age);
             }
             foreach (var color in favcolours)
                 Console.WriteLine(color);

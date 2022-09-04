@@ -7,9 +7,9 @@ namespace SkillFactory.Module4
     class Unit_5_1
     {
         // Exercise 5.1.5
-        public string ShowColor(string username)
+        public string ShowColor(string username, int userage)
         {
-            Console.WriteLine(username + " напишите свой любимый цвет на английском с маленькой буквы");
+            Console.WriteLine("{0}, {1} \nНапишите свой любимый цвет на английском с маленькой буквы", username, userage);
             var color = Console.ReadLine();
 
             switch (color)
@@ -40,6 +40,20 @@ namespace SkillFactory.Module4
                     Console.WriteLine("Your color is yellow!");
                     break;
             }
+
+            var (name, age) = ("Pavel", 31);
+            Console.WriteLine("My name: " + name);
+            Console.WriteLine("My age: " + age);
+
+            Console.WriteLine("Введите ваше имя: ");
+            name = Console.ReadLine();
+
+            Console.WriteLine("Введите ваш возраст: ");
+            age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Ваше имя: {0}", name);
+            Console.WriteLine("Ваш возраст: {0}", age);
+
 
             return color;
         }

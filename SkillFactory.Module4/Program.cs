@@ -54,9 +54,27 @@ namespace SkillFactory.Module4
             //    Console.WriteLine(color);
 
             //To exercise 5.2.15
+            //Unit_5_2 unit_5_2 = new Unit_5_2();
+            //var array = unit_5_2.GetArrayFromConsole(10);
+            //unit_5_2.ShowArray(array, true);
+
+            //var someName = "Евгения";
+            //Console.WriteLine(someName);
+
+            //GetName(ref someName);
+
+            //Console.WriteLine(someName);
+
+            //static void GetName(ref string name)
+            //{
+            //    Console.WriteLine("Введите имя");
+            //    name = Console.ReadLine();
+            //}
+
             Unit_5_2 unit_5_2 = new Unit_5_2();
-            var array = unit_5_2.GetArrayFromConsole(10);
-            unit_5_2.ShowArray(array, true);
+            int nnum = 6;
+            unit_5_2.GetArrayFromConsole(ref nnum);
+            
         }
     }
 }

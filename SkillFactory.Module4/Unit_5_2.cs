@@ -6,8 +6,8 @@ namespace SkillFactory.Module4
 {
     class Unit_5_2
     {
-        // Exercise 5.2.8 + Exercise 5.2.14
-        public int[] GetArrayFromConsole(int num = 5)
+        // Exercise 5.2.8 + Exercise 5.2.14 + 5.3.8
+        public int[] GetArrayFromConsole(ref int num)
         {
             var array = new int[num];
 

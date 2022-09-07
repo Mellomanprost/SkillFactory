@@ -71,9 +71,13 @@ namespace SkillFactory.Module4
             //    name = Console.ReadLine();
             //}
 
-            Unit_5_2 unit_5_2 = new Unit_5_2();
-            int nnum = 6;
-            unit_5_2.GetArrayFromConsole(ref nnum);
+            //Unit_5_2 unit_5_2 = new Unit_5_2();
+            //int nnum = 6;
+            //unit_5_2.GetArrayFromConsole(ref nnum);
+
+            Unit_5_3 unit_5_3 = new Unit_5_3();
+            unit_5_3.GetName(out string x, out string y);
+            Console.WriteLine(x + " " + y);
             
         }
     }

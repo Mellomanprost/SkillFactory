@@ -4,6 +4,12 @@ namespace SkillFactory.Module4
 {
     class Program
     {
+        static int num1 = 667;
+        static int Sum()
+        {
+            var num2 = 1;
+            return num1 - num2;
+        }
         static void Main(string[] args)
         {
             //Exercise415 Example = new Exercise415();
@@ -75,10 +81,15 @@ namespace SkillFactory.Module4
             //int nnum = 6;
             //unit_5_2.GetArrayFromConsole(ref nnum);
 
-            Unit_5_3 unit_5_3 = new Unit_5_3();
-            unit_5_3.GetName(out string x, out string y);
-            Console.WriteLine(x + " " + y);
-            
+            //Unit_5_3 unit_5_3 = new Unit_5_3();
+            //unit_5_3.GetName(out string x, out string y);
+            //Console.WriteLine(x + " " + y);
+
+            // Unit_5_4
+
+            //Unit_5_4 unit_5_4 = new Unit_5_4();
+
+
         }
     }
 }
